@@ -1,4 +1,4 @@
-package com.thefirstbornson.compresstjson;
+package com.thefirstbornson.compressjson;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -27,7 +27,7 @@ public class CompressJsonAspect {
         this.objectMapper = objectMapper;
     }
 
-    @Around("@annotation(com.thefirstbornson.compresstjson.CompressJson)")
+    @Around("@annotation(com.thefirstbornson.compressjson.CompressJson)")
     public ResponseEntity<?> makeCompressedJson(ProceedingJoinPoint pjp) throws Throwable {
         Method method = getMethodFromJoinPoint(pjp);
         Object[] methodArguments = pjp.getArgs();

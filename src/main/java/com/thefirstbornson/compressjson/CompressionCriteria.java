@@ -1,4 +1,4 @@
-package com.thefirstbornson.compresstjson;
+package com.thefirstbornson.compressjson;
 
 import java.util.ArrayList;
 import java.util.Collection;

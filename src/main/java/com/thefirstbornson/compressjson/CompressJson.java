@@ -1,4 +1,4 @@
-package com.thefirstbornson.compresstjson;
+package com.thefirstbornson.compressjson;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
