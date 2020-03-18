@@ -4,9 +4,36 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>thefirstbornson</groupId>
-    <artifactId>CompressJson</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>com.thefirstbornson</groupId>
+    <artifactId>compressjson</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>Library for managing nested resources and lists of nested sub-resources in a REST API.</description>
+    <url>http://github.com/thefirstbornson/CompressJsonLibrary</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Poskrebyshev Artem</name>
+            <email>thefirstbornson@gmail.com</email>
+            <url>https://github.com/thefirstbornson</url>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/thefirstbornson/CompressJsonLibrary.git</connection>
+        <developerConnection>scm:git:ssh://github.com:thefirstbornson/CompressJsonLibrary.git</developerConnection>
+        <url>http://github.com/thefirstbornson/CompressJsonLibrary/tree/master</url>
+    </scm>
+
     <build>
         <plugins>
             <plugin>
@@ -19,6 +46,10 @@
             </plugin>
         </plugins>
     </build>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -39,6 +70,5 @@
             <version>2.10.3</version>
         </dependency>
     </dependencies>
-
 
 </project>
