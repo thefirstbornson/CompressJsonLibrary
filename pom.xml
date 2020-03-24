@@ -34,8 +34,8 @@
 
     <scm>
         <url>https://github.com/thefirstbornson/CompressJsonLibrary</url>
-        <connection>scm:git:git://github.com/thefirstbornson/CompressJsonLibrary</connection>
-        <developerConnection>scm:git:ssh://github.com:thefirstbornson/CompressJsonLibrary</developerConnection>
+        <connection>scm:git:git://github.com/thefirstbornson/CompressJsonLibrary.git</connection>
+        <developerConnection>scm:git:ssh://github.com:thefirstbornson/CompressJsonLibrary.git</developerConnection>
     </scm>
 
     <build>
